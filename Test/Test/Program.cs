@@ -10,7 +10,10 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world!");
+            long l = 0;
+            for (int i = 0; i < 4324324; i++)
+                l *= 2 * i;
+
         }
     }
 }
